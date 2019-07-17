@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBCB255F22DE4667005C4A89 /* abe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBCB255E22DE4667005C4A89 /* abe.jpg */; };
 		FBFDE6BD22D68B55003F303B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDE6BC22D68B55003F303B /* AppDelegate.swift */; };
 		FBFDE6BF22D68B55003F303B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFDE6BE22D68B55003F303B /* art.scnassets */; };
 		FBFDE6C122D68B55003F303B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDE6C022D68B55003F303B /* ViewController.swift */; };
@@ -35,7 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FBFDE6B922D68B55003F303B /* tocar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tocar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCB255E22DE4667005C4A89 /* abe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abe.jpg; sourceTree = "<group>"; };
+		FBFDE6B922D68B55003F303B /* artSeee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = artSeee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFDE6BC22D68B55003F303B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBFDE6BE22D68B55003F303B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		FBFDE6C022D68B55003F303B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +45,10 @@
 		FBFDE6C522D68B57003F303B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBFDE6C822D68B57003F303B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBFDE6CA22D68B57003F303B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBFDE6CF22D68B57003F303B /* tocarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tocarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFDE6CF22D68B57003F303B /* artSeeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = artSeeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFDE6D322D68B57003F303B /* tocarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tocarTests.swift; sourceTree = "<group>"; };
 		FBFDE6D522D68B57003F303B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBFDE6DA22D68B57003F303B /* tocarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tocarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFDE6DA22D68B57003F303B /* artSeeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = artSeeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFDE6DE22D68B57003F303B /* tocarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tocarUITests.swift; sourceTree = "<group>"; };
 		FBFDE6E022D68B57003F303B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +91,9 @@
 		FBFDE6BA22D68B55003F303B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBFDE6B922D68B55003F303B /* tocar.app */,
-				FBFDE6CF22D68B57003F303B /* tocarTests.xctest */,
-				FBFDE6DA22D68B57003F303B /* tocarUITests.xctest */,
+				FBFDE6B922D68B55003F303B /* artSeee.app */,
+				FBFDE6CF22D68B57003F303B /* artSeeeTests.xctest */,
+				FBFDE6DA22D68B57003F303B /* artSeeeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +106,7 @@
 				FBFDE6C022D68B55003F303B /* ViewController.swift */,
 				FBFDE6C222D68B55003F303B /* Main.storyboard */,
 				FBFDE6C522D68B57003F303B /* Assets.xcassets */,
+				FBCB255E22DE4667005C4A89 /* abe.jpg */,
 				FBFDE6C722D68B57003F303B /* LaunchScreen.storyboard */,
 				FBFDE6CA22D68B57003F303B /* Info.plist */,
 			);
@@ -131,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBFDE6B822D68B55003F303B /* tocar */ = {
+		FBFDE6B822D68B55003F303B /* artSeee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBFDE6E322D68B57003F303B /* Build configuration list for PBXNativeTarget "tocar" */;
+			buildConfigurationList = FBFDE6E322D68B57003F303B /* Build configuration list for PBXNativeTarget "artSeee" */;
 			buildPhases = (
 				FBFDE6B522D68B55003F303B /* Sources */,
 				FBFDE6B622D68B55003F303B /* Frameworks */,
@@ -143,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = tocar;
+			name = artSeee;
 			productName = tocar;
-			productReference = FBFDE6B922D68B55003F303B /* tocar.app */;
+			productReference = FBFDE6B922D68B55003F303B /* artSeee.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FBFDE6CE22D68B57003F303B /* tocarTests */ = {
+		FBFDE6CE22D68B57003F303B /* artSeeeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBFDE6E622D68B57003F303B /* Build configuration list for PBXNativeTarget "tocarTests" */;
+			buildConfigurationList = FBFDE6E622D68B57003F303B /* Build configuration list for PBXNativeTarget "artSeeeTests" */;
 			buildPhases = (
 				FBFDE6CB22D68B57003F303B /* Sources */,
 				FBFDE6CC22D68B57003F303B /* Frameworks */,
@@ -161,14 +164,14 @@
 			dependencies = (
 				FBFDE6D122D68B57003F303B /* PBXTargetDependency */,
 			);
-			name = tocarTests;
+			name = artSeeeTests;
 			productName = tocarTests;
-			productReference = FBFDE6CF22D68B57003F303B /* tocarTests.xctest */;
+			productReference = FBFDE6CF22D68B57003F303B /* artSeeeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FBFDE6D922D68B57003F303B /* tocarUITests */ = {
+		FBFDE6D922D68B57003F303B /* artSeeeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBFDE6E922D68B57003F303B /* Build configuration list for PBXNativeTarget "tocarUITests" */;
+			buildConfigurationList = FBFDE6E922D68B57003F303B /* Build configuration list for PBXNativeTarget "artSeeeUITests" */;
 			buildPhases = (
 				FBFDE6D622D68B57003F303B /* Sources */,
 				FBFDE6D722D68B57003F303B /* Frameworks */,
@@ -179,9 +182,9 @@
 			dependencies = (
 				FBFDE6DC22D68B57003F303B /* PBXTargetDependency */,
 			);
-			name = tocarUITests;
+			name = artSeeeUITests;
 			productName = tocarUITests;
-			productReference = FBFDE6DA22D68B57003F303B /* tocarUITests.xctest */;
+			productReference = FBFDE6DA22D68B57003F303B /* artSeeeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FBFDE6B422D68B55003F303B /* Build configuration list for PBXProject "tocar" */;
+			buildConfigurationList = FBFDE6B422D68B55003F303B /* Build configuration list for PBXProject "artSeee" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBFDE6B822D68B55003F303B /* tocar */,
-				FBFDE6CE22D68B57003F303B /* tocarTests */,
-				FBFDE6D922D68B57003F303B /* tocarUITests */,
+				FBFDE6B822D68B55003F303B /* artSeee */,
+				FBFDE6CE22D68B57003F303B /* artSeeeTests */,
+				FBFDE6D922D68B57003F303B /* artSeeeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBFDE6BF22D68B55003F303B /* art.scnassets in Resources */,
+				FBCB255F22DE4667005C4A89 /* abe.jpg in Resources */,
 				FBFDE6C922D68B57003F303B /* LaunchScreen.storyboard in Resources */,
 				FBFDE6C622D68B57003F303B /* Assets.xcassets in Resources */,
 				FBFDE6C422D68B55003F303B /* Main.storyboard in Resources */,
@@ -286,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		FBFDE6D122D68B57003F303B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FBFDE6B822D68B55003F303B /* tocar */;
+			target = FBFDE6B822D68B55003F303B /* artSeee */;
 			targetProxy = FBFDE6D022D68B57003F303B /* PBXContainerItemProxy */;
 		};
 		FBFDE6DC22D68B57003F303B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FBFDE6B822D68B55003F303B /* tocar */;
+			target = FBFDE6B822D68B55003F303B /* artSeee */;
 			targetProxy = FBFDE6DB22D68B57003F303B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tocar.app/tocar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/artSeee.app/artSeee";
 			};
 			name = Debug;
 		};
@@ -506,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tocar.app/tocar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/artSeee.app/artSeee";
 			};
 			name = Release;
 		};
@@ -553,7 +557,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBFDE6B422D68B55003F303B /* Build configuration list for PBXProject "tocar" */ = {
+		FBFDE6B422D68B55003F303B /* Build configuration list for PBXProject "artSeee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBFDE6E122D68B57003F303B /* Debug */,
@@ -562,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBFDE6E322D68B57003F303B /* Build configuration list for PBXNativeTarget "tocar" */ = {
+		FBFDE6E322D68B57003F303B /* Build configuration list for PBXNativeTarget "artSeee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBFDE6E422D68B57003F303B /* Debug */,
@@ -571,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBFDE6E622D68B57003F303B /* Build configuration list for PBXNativeTarget "tocarTests" */ = {
+		FBFDE6E622D68B57003F303B /* Build configuration list for PBXNativeTarget "artSeeeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBFDE6E722D68B57003F303B /* Debug */,
@@ -580,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBFDE6E922D68B57003F303B /* Build configuration list for PBXNativeTarget "tocarUITests" */ = {
+		FBFDE6E922D68B57003F303B /* Build configuration list for PBXNativeTarget "artSeeeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBFDE6EA22D68B57003F303B /* Debug */,

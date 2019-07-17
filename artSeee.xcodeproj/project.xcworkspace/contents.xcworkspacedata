@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:tocar.xcodeproj">
+      location = "self:/Users/colinburns/Documents/Xcode/tocar/artSeee.xcodeproj">
    </FileRef>
 </Workspace>
